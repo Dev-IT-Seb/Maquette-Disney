@@ -1,0 +1,245 @@
+@use '../../abstracts/variables' as *;
+@use '../../abstracts/typography' as *;
+@use '../../abstracts/mixins' as *;
+
+/** CATEGORIES CARDS MOVIES **/
+.cards-categorie {
+    padding-top: 24px;
+
+    .row-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .item {
+            padding: 0.7rem;
+        }
+    }
+}
+
+/** SUBSCRIPTION CARDS **/
+.card-subscription {
+    .item {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .item:nth-child(1) {
+        margin-right: 5rem;
+        border: solid 1px white;
+        height: 523px;
+        width: 380px;
+
+        .logos-subscription {
+            width: 12rem;
+            margin-left: 2rem;
+            padding-bottom: 2rem;
+            margin-top: 2rem;
+        }
+
+        h3 {
+            color: $color-principal;
+            font-size: 25px;
+            margin-left: 2rem;
+        }
+
+        ul {
+            width: 290px;
+            height: 88px;
+            margin-top: 1rem;
+            list-style: none;
+            margin-left: 2rem;
+            color: $color-description;
+        }
+
+        p:nth-child(3) {
+            color: $color-principal;
+            margin-left: 2rem;
+            margin-top: 0.5rem;
+        }
+
+        p:nth-child(5) {
+            color: $color-principal;
+            margin-left: 3rem;
+            line-height: 38px;
+            margin-top: 7rem;
+            color: $color-description;
+            font-size: 18px;
+            font-family: $avenirbook;
+
+            .price {
+                color: $color-principal;
+                font-size: 25px;
+                font-family: $avenirblack;
+            }
+        }
+
+        .btn-secondary {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0.5rem;
+
+            p:last-child {
+                color: $color-principal;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 18px;
+                font-family: $avenirmedium;
+                background-color: $background-button;
+                width: 290px;
+                height: 60px;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    .item:nth-child(2) {
+        margin-right: 5rem;
+        border: solid 1px white;
+        height: 523px;
+        width: 380px;
+
+        h3 {
+            color: $color-principal;
+            font-size: 25px;
+            margin-left: 2rem;
+        }
+
+        ul {
+            width: 290px;
+            height: 88px;
+            margin-top: 3rem;
+            list-style: none;
+            margin-left: 2rem;
+            color: $color-description;
+        }
+
+        p:nth-child(3) {
+            color: $color-principal;
+            margin-left: 2rem;
+            margin-top: 2.5rem;
+        }
+
+        p:nth-child(5) {
+            color: $color-principal;
+            margin-left: 3rem;
+            font-size: 25px;
+            font-family: $avenirblack;
+            line-height: 38px;
+            margin-top: 7rem;
+            color: $color-description;
+            font-size: 18px;
+            font-family: $avenirbook;
+
+            .price {
+                color: $color-principal;
+                font-size: 25px;
+                font-family: $avenirblack;
+            }
+        }
+
+        .btn-secondary {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0.5rem;
+
+            p:last-child {
+                color: $color-principal;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 18px;
+                font-family: $avenirmedium;
+                background-color: $background-button;
+                width: 290px;
+                height: 60px;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    .item:nth-child(3) {
+        margin-right: 5rem;
+        border: solid 1px white;
+        height: 523px;
+        width: 380px;
+
+        h3 {
+            color: $color-principal;
+            font-size: 25px;
+            margin-left: 2rem;
+        }
+
+        ul {
+            width: 290px;
+            height: 88px;
+            margin-top: 4.5rem;
+            list-style: none;
+            margin-left: 3rem;
+            color: $color-description;
+        }
+
+        p:nth-child(3) {
+            color: $color-principal;
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+
+        p:nth-child(5) {
+            color: $color-principal;
+            margin-left: 3rem;
+            font-size: 25px;
+            font-family: $avenirblack;
+            line-height: 38px;
+            margin-top: 7rem;
+            color: $color-description;
+            font-size: 18px;
+            font-family: $avenirbook;
+
+            .price {
+                color: $color-principal;
+                font-size: 25px;
+                font-family: $avenirblack;
+            }
+        }
+
+        .btn-secondary {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0.5rem;
+
+            p:last-child {
+                color: $color-principal;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 18px;
+                font-family: $avenirmedium;
+                background-color: $background-button;
+                width: 290px;
+                height: 60px;
+                padding-top: 1rem;
+            }
+        }
+    }
+}
+
+/** ----------------------------------------- **/
+/** MEDIA QUERIES **/
+@media (max-width: 400px) {
+
+    .cards-categorie {
+
+        .item:nth-child(1) {
+            display: none;
+        }
+        .item:nth-child(2) {
+            display: none;
+        }
+    }
+}
