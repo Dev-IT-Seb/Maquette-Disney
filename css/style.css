@@ -1,10 +1,10 @@
-/** ------------------------------- **/
-/** FONTS **/
-/** ------------------------------- **/
 /** COLORS **/
 /** BUTTONS HEADER**/
 /** TXT PRINCIPAL **/
 /** TXT DESCRIPTION **/
+/** ------------------------------- **/
+/** ------------------------------- **/
+/** FONTS **/
 /** ------------------------------- **/
 /** RESET VALEUR **/
 * {
@@ -80,7 +80,6 @@
   width: 380px;
 }
 .card-subscription .item:nth-child(1) .logos-subscription {
-  width: 12rem;
   margin-left: 2rem;
   padding-bottom: 2rem;
   margin-top: 2rem;
@@ -123,23 +122,30 @@
   align-items: center;
   padding-top: 0.5rem;
 }
-.card-subscription .item:nth-child(1) .btn-secondary p:last-child {
+.card-subscription .item:nth-child(1) .btn-secondary a:last-child {
   color: #F9F9F9;
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "avenirmedium";
   background-color: #0063E5;
   width: 290px;
   height: 60px;
   padding-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .card-subscription .item:nth-child(2) {
   margin-right: 5rem;
   border: solid 1px white;
   height: 523px;
   width: 380px;
+}
+.card-subscription .item:nth-child(2) .logos-subscription {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 .card-subscription .item:nth-child(2) h3 {
   color: #F9F9F9;
@@ -149,7 +155,7 @@
 .card-subscription .item:nth-child(2) ul {
   width: 290px;
   height: 88px;
-  margin-top: 3rem;
+  padding-top: 1rem;
   list-style: none;
   margin-left: 2rem;
   color: #C0C0C0;
@@ -157,7 +163,7 @@
 .card-subscription .item:nth-child(2) p:nth-child(3) {
   color: #F9F9F9;
   margin-left: 2rem;
-  margin-top: 2.5rem;
+  padding-top: 1.5rem;
 }
 .card-subscription .item:nth-child(2) p:nth-child(5) {
   color: #F9F9F9;
@@ -181,17 +187,19 @@
   align-items: center;
   padding-top: 0.5rem;
 }
-.card-subscription .item:nth-child(2) .btn-secondary p:last-child {
+.card-subscription .item:nth-child(2) .btn-secondary a:last-child {
   color: #F9F9F9;
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "avenirmedium";
   background-color: #0063E5;
   width: 290px;
   height: 60px;
   padding-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .card-subscription .item:nth-child(3) {
   margin-right: 5rem;
@@ -199,17 +207,22 @@
   height: 523px;
   width: 380px;
 }
+.card-subscription .item:nth-child(3) .logos-subscription {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
 .card-subscription .item:nth-child(3) h3 {
   color: #F9F9F9;
   font-size: 25px;
-  margin-left: 2rem;
+  padding-left: 2rem;
 }
 .card-subscription .item:nth-child(3) ul {
   width: 290px;
   height: 88px;
-  margin-top: 4.5rem;
+  padding-top: 1rem;
   list-style: none;
-  margin-left: 3rem;
+  padding-left: 2rem;
   color: #C0C0C0;
 }
 .card-subscription .item:nth-child(3) p:nth-child(3) {
@@ -239,17 +252,19 @@
   align-items: center;
   padding-top: 0.5rem;
 }
-.card-subscription .item:nth-child(3) .btn-secondary p:last-child {
+.card-subscription .item:nth-child(3) .btn-secondary a:last-child {
   color: #F9F9F9;
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "avenirmedium";
   background-color: #0063E5;
   width: 290px;
   height: 60px;
   padding-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /** ----------------------------------------- **/

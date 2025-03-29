@@ -1,7 +1,9 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/typography' as *;
 @use '../abstracts/mixins' as *;
-
+@use '../abstracts/colors' as *;
+//--------------------------------------//
+//
 // Section Subscription
 .subscription {
     margin-top: 194px;
